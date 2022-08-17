@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.roundsScore,
+#rounds {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 50%;
+    margin: 20px auto;
+
+}
+
+.restart {
+    text-align: center;
+}
+
+.displayNone {
+    display: none;
+}

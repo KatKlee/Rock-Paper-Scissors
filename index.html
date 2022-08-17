@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Main Headline -->
+    <section>
+        <h1>Rock Paper Scissors</h1>
+    </section>
+    <form action="" onsubmit="return false">
+        <!-- Rounds Choice and Count Display -->
+        <section>
+            <p>Game Rounds</p>
+            <div id="rounds">
+
+                <!-- Radio buttons -->
+                <article id="roundsChoice">
+                    <div>
+                        <input type="radio" name="radiobtn" id="btnFive" value="5" checked>
+                        <label for="">5</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radiobtn" id="btnTen" value="10">
+                        <label for="">10</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radiobtn" id="btnFifteen" value="15">
+                        <label for="">15</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="radiobtn" id="btnTwenty" value="20">
+                        <label for="">20</label>
+                    </div>
+                </article>
+
+                <!-- Round count Display -->
+                <article id="roundsCount" class="displayNone">
+                    <p id="countDisplay">0 / 0</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Rounds Score -->
+        <section class="roundsScore">
+            <div>
+                <p>Player</p>
+                <p id="playerScore">0</p>
+            </div>
+            <div>
+                <p>Computer</p>
+                <p id="computerScore">0</p>
+            </div>
+        </section>
+
+        <!-- Round Results -->
+        <section>
+            <p id="output">Let's play!</p>
+        </section>
+
+        <!-- Buttons Rock Paper Scissors -->
+        <section onclick="play(event)">
+            <button id="btnRock" value="Rock">Rock</button>
+            <button id="btnPaper" value="Paper">Paper</button>
+            <button id="btnScissors" value="Scissors">Scissors</button>
+        </section>
+
+        <!-- Call to action -->
+        <section>
+            <p>Make a move.</p>
+        </section>
+
+        <!-- Restart Button -->
+        <section>
+            <button class="restart" onclick="restart()">Restart</button>
+        </section>
+    </form>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
