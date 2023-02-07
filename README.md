@@ -9,10 +9,10 @@ Version 2.0:
 – Umsetzung in einem ansprechenden, benutzerfreundlichen und responsiven Design  
 – Benutzerfreundliche Spielführung zur besseren Orientierung nach Auswahl der Runden  
   
-
+<br>
 *The famous game as a web version. You choose the number of rounds and play against the computer. Choose one of the 3 symbols (rock, paper, scissors) in every round and see who wins. Good luck!
 
-Created with JavaScript.  
+Created with JavaScript.
 The elements and the structure according to the given example.*
 
 *Version 2.0:  
