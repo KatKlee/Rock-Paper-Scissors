@@ -1,6 +1,5 @@
 
-## Schere-Stein-Papier  
-Rock-Paper-Scissors
+## Schere-Stein-Papier</br>Rock-Paper-Scissors
 
 
 Das berühmte Spiel als Webversion. Du wählst die Anzahl der Runden und spielst gegen den Computer. Wähle je Runde eines der 3 Symbole (Schere, Stein, Papier) und schau wer gewinnt. Viel Glück!
